@@ -39,22 +39,16 @@
                                     </div>
                                     <form class="user" action="../auth/process_register.php" method="post">
                                         <div class="form-group">
-                                            <div class="col-md-12 mb-3 mb-sm-0">
-                                                <input type="text" name="name" class="form-control form-control-user" id="exampleFirstName"
-                                                    placeholder="Name">
-                                            </div>
+                                            <input type="text" name="name" class="form-control form-control-user" id="exampleFirstName"
+                                                placeholder="Name" required>
                                         </div>
                                         <div class="form-group">
-                                            <div class="col-md-12 mb-3 mb-sm-0">
-                                                <input type="email" name="email" class="form-control form-control-user" id="exampleInputEmail"
-                                                placeholder="Email Address">
-                                            </div>
+                                            <input type="email" name="email" class="form-control form-control-user" id="exampleInputEmail"
+                                                placeholder="Email Address" required>
                                         </div>
                                         <div class="form-group">
-                                            <div class="col-md-12 mb-3 mb-sm-0">
-                                                <input type="password" name="password" class="form-control form-control-user"
-                                                    id="exampleInputPassword" placeholder="Password">
-                                            </div>
+                                            <input type="password" name="password" class="form-control form-control-user"
+                                                id="exampleInputPassword" placeholder="Password" required>
                                         </div>
                                         <button type="submit" class="btn btn-primary btn-user btn-block">
                                             Register
